@@ -3,6 +3,7 @@
 1. Download and install zola: https://getzola.org
 2. clone this repo
 3. run `zola serve`
+4. Open browser at http://localhost:1111
 
 ## Deployment
 
