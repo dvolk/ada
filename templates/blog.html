@@ -1,0 +1,25 @@
+{% extends "blog-base.html" %}
+
+{% block content %}
+<div class="w3-panel w3-round" style="color: white; background-color: #0e5dde">
+    <h1 class="title">
+  {{ section.title }}
+</h1>
+</div>
+
+<div class="w3-panel w3-round w3-white">
+<!-- If you are using pagination, section.pages will be empty. You need to use the paginator object -->
+    {% for page in section.pages %}
+    <h2>
+        <a href="{{ page.permalink|safe }}">{{ page.title }}</a>
+        <div style="font-size: 18px; float: right;">
+            {{ page.date }}
+        </div>
+    </h2>
+
+    <p>
+        {{ page.summary|safe }}
+    </p>
+      {% endfor %}
+</ul>
+{% endblock content %}

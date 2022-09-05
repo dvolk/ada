@@ -1,0 +1,18 @@
+{% extends "blog-base.html" %}
+
+{% block content %}
+<div class="w3-panel w3-round" style="color: white; background-color: #0e5dde">
+    <h1 class="title">
+        {{ page.title }}
+    </h1>
+</div>
+
+<div class="w3-panel w3-white w3-round">
+    {{ page.content | safe }}
+
+    <div style="margin: 10px 5px 10px 0px; float: right;">
+        date: {{ page.date }}
+    </div>
+</div>
+
+{% endblock content %}
