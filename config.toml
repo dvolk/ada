@@ -20,9 +20,6 @@ highlight_code = true
 juice_logo_name = ""
 juice_logo_path = "ada-logo.png"
 juice_extra_menu = [
-    { title = "Blog", link = "blog/" },
-    { title = "About", link = "https://github.com/dvolk/ada" },
-    { title = "Showcases", link = "https://github.com/dvolk/ada" },
-    { title = "Privacy", link = "https://github.com/dvolk/ada" },
+    { title = "Blog", link = "https://oxfordfun.com/ada/blog/" },
 ]
 repository_url = "https://github.com/dvolk/ada"
