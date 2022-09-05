@@ -7,6 +7,9 @@
 
 ## Deployment
 
+1. Make sure the site works fine by running it in the development setup
+2. Run:
+
 ```
 zola build && rm -rf ada && cp -r public ada && scp -P 44444 -r ada ubuntu@eclipse.oxfordfun.com:/var/www/html/
 ```
