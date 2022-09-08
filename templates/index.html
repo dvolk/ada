@@ -7,6 +7,17 @@
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 <link rel="manifest" href="/site.webmanifest">
+<link rel="stylesheet" type="text/css" href="https://kenwheeler.github.io/slick/slick/slick.css" />
+<link rel="stylesheet" type="text/css" href="https://kenwheeler.github.io/slick/slick/slick-theme.css" />
+<style>
+    .slick-prev:before {
+        color: grey;
+    }
+
+    .slick-next:before {
+        color: grey;
+    }
+</style>
 {% endblock head %}
 
 {% block hero %}
@@ -20,18 +31,27 @@
     </h3>
     <div>
         <div style="margin-top: 50px;">
-            <button class="heading-text" style="font-size: 24px; padding: 10px 20px; border-radius: 10px; color: white; background-color: #0e5dde">
+            <button class="heading-text"
+                style="font-size: 24px; padding: 10px 20px; border-radius: 10px; color: white; background-color: #0e5dde">
                 Sign Up
             </button>
             &nbsp;
             &nbsp;
-            <button class="heading-text" style="font-size: 24px; padding: 10px 20px; border-radius: 10px; color: white; background-color: #0e5dde">
+            <button class="heading-text"
+                style="font-size: 24px; padding: 10px 20px; border-radius: 10px; color: white; background-color: #0e5dde">
                 Log in
             </button>
-            </div>
+        </div>
     </div>
-    </section>
-    <img class="hero-image" style="width: 50%" src="{{ get_url(path="screenshot.png") }}">
+</section>
+
+<div style="width: 50%" class="mycarousel"
+    data-slick='{"arrows": true, "dots": true, "autoplay": true, "autoplaySpeed": 2000 }'>
+
+    <div><img class="hero-image" style="width: 100%" src="{{ get_url(path="image1.png") }}"></div>
+    <div><img class="hero-image" style="width: 100%" src="{{ get_url(path="image2.png") }}"></div>
+    <div><img class="hero-image" style="width: 100%" src="{{ get_url(path="image3.png") }}"></div>
+</div>
 
 <div class="explore-more text" onclick="document.getElementById('features').scrollIntoView({behavior: 'smooth'})">
     Explore More ⇩
@@ -52,3 +72,15 @@
     }
 </style>
 {% endblock hero %}
+
+{% block script %}
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="https://kenwheeler.github.io/slick/slick/slick.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('.mycarousel').slick();
+    });
+</script>
+
+{% endblock script %}
