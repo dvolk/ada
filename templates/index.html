@@ -3,9 +3,9 @@
 {% block title %}ada{% endblock title %}
 
 {% block head %}
-<link rel="apple-touch-icon" sizes="180x180" href="/ada/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/ada/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/ada/favicon-16x16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 <link rel="manifest" href="/site.webmanifest">
 <link rel="stylesheet" type="text/css" href="https://kenwheeler.github.io/slick/slick/slick.css" />
 <link rel="stylesheet" type="text/css" href="https://kenwheeler.github.io/slick/slick/slick-theme.css" />
@@ -48,9 +48,10 @@
 <div style="width: 50%" class="mycarousel"
     data-slick='{"arrows": true, "dots": true, "autoplay": true, "autoplaySpeed": 2000 }'>
 
-    <div><img class="hero-image" style="width: 100%" src="{{ get_url(path="image1.png") }}"></div>
-    <div><img class="hero-image" style="width: 100%" src="{{ get_url(path="image2.png") }}"></div>
     <div><img class="hero-image" style="width: 100%" src="{{ get_url(path="image3.png") }}"></div>
+    <div><img class="hero-image" style="width: 100%" src="{{ get_url(path="image2.png") }}"></div>
+    <div><img class="hero-image" style="width: 100%" src="{{ get_url(path="image4.png") }}"></div>
+    <div><img class="hero-image" style="width: 100%" src="{{ get_url(path="image5.png") }}"></div>
 </div>
 
 <div class="explore-more text" onclick="document.getElementById('features').scrollIntoView({behavior: 'smooth'})">

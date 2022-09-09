@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://oxfordfun.com/ada"
+base_url = "/"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
@@ -21,6 +21,6 @@ highlight_code = true
 juice_logo_name = ""
 juice_logo_path = "ada-logo.png"
 juice_extra_menu = [
-    { title = "Blog", link = "https://oxfordfun.com/ada/blog/" },
+    { title = "Blog", link = "https://ada.stfc.ac.uk/blog/" },
 ]
 repository_url = "https://github.com/dvolk/ada"
