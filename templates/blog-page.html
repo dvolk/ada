@@ -1,4 +1,4 @@
-{% extends "blog-base.html" %}
+{% extends "page.html" %}
 
 {% block head %}
 <link rel="apple-touch-icon" sizes="180x180" href="/ada/apple-touch-icon.png">
@@ -10,13 +10,13 @@
 {% block title %}{{ page.title }} - ada blog{% endblock title %}
 
 {% block content %}
-<div class="w3-panel w3-round" style="color: white; background-color: #0e5dde">
+<div style="padding-left: 20px; color: white; background-color: #0e5dde">
     <h1 class="title">
         {{ page.title }}
     </h1>
 </div>
 
-<div class="w3-panel w3-white w3-round">
+<div>
     {{ page.content | safe }}
 
     <div style="margin: 10px 5px 10px 0px; float: right;">
