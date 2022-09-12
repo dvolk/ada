@@ -4,7 +4,7 @@
 {% block title %}{{ page.title }} | {{ super() }} {% endblock title %}
 
 {% block header %}
-    <header class="box-shadow pos-absolute" style="background-color: #0e5dde">
+    <header class="box-shadow pos-absolute" style="background-color: var(--my-background-color)">
         {{ macros::render_header() }}
     </header>
 
