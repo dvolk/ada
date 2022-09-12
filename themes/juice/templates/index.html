@@ -21,7 +21,7 @@
 <body>
     {% block header %}
 
-    <header class="pos-absolute" style="background-color: #0e5dde">
+    <header class="box-shadow pos-absolute" style="background-color: #0e5dde">
         {{ macros::render_header() }}
     </header>
 
@@ -96,7 +96,7 @@
 
         <div class="content text">
             {% block content %}
-            <div id="features" class="heading-text">Overview</div>
+            <div id="features" class="heading-text"></div>
             {{ section.content | safe }}
             {% endblock content %}
         </div>

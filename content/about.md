@@ -1,5 +1,6 @@
 +++
 title = "About"
+description = "About Ada"
 weight = 1
 +++
 

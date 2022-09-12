@@ -4,12 +4,12 @@
 {% block title %}{{ page.title }} | {{ super() }} {% endblock title %}
 
 {% block header %}
-<header class="box-shadow">
-    {{ macros::render_header() }}
-</header>
+    <header class="box-shadow pos-absolute" style="background-color: #0e5dde">
+        {{ macros::render_header() }}
+    </header>
+
 {% endblock header %}
 
 {% block content %}
-<div class="heading-text2">{{ page.description }}</div>
 {{ page.content | safe }}
 {% endblock content %}
