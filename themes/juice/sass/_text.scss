@@ -1,31 +1,47 @@
 .heading-text {
   font-family: var(--my-font-family);
   font-size: 32px;
-  font-weight: 600;
+  font-weight: 400;
   padding: 10px 0 25px 0;
   color: var(--primary-text-color);
 }
+.heading-text2 {
+  font-family: var(--my-font-family);
+  font-size: 32px;
+  font-weight: 400;
+  padding: 10px 0 25px 0;
+  color: var(--primary-text-color);
+  border-left: #0e5dde 8px solid;
+}
 
-h1, .title-text {
+.title-text {
   font-family: var(--my-font-family);
   font-size: 25px;
-  font-weight: 300;
+  font-weight: var(--my-font-weight);
   color: var(--primary-text-color);
-  border-left: var(--primary-color) 8px solid;
+  padding-left: 10px;
+}
+
+.title-text2 {
+  font-family: var(--my-font-family);
+  font-size: 25px;
+  font-weight: var(--my-font-weight);
+  color: var(--primary-text-color);
+  border-left: #0e5dde 8px solid;
   padding-left: 10px;
 }
 
 h2, .subtitle-text {
   font-family: var(--my-font-family);
   font-size: 20px;
-  font-weight: 500;
+  font-weight: var(--my-font-weight);
   color: var(--primary-text-color);
 }
 
 .text {
   font-family: var(--my-font-family);
   font-size: 18px;
-  font-weight: 400;
+  font-weight: var(--my-font-weight);
   line-height: 26px;
   letter-spacing: 0.2px;
   color: var(--primary-text-color);
@@ -34,6 +50,6 @@ h2, .subtitle-text {
 .subtext {
   font-family: var(--my-font-family);
   font-size: 16px;
-  font-weight: 400;
+  font-weight: var(--my-font-weight);
   letter-spacing: 0.1px;
 }

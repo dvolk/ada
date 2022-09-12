@@ -19,7 +19,7 @@ highlight_code = true
 [extra]
 # Put all your custom variables here
 juice_logo_name = ""
-juice_logo_path = "ada-logo.png"
+juice_logo_path = "ada-logo-white.png"
 juice_extra_menu = [
     { title = "Blog", link = "https://ada.stfc.ac.uk/blog/" },
 ]

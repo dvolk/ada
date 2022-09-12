@@ -32,7 +32,7 @@ p > img {
 header {
   background-color: var(--primary-color);
   color: black;
-  padding: 20px 50px;
+  padding: 10px 50px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -54,6 +54,7 @@ header {
 
 .nav-item {
   margin: 0 10px;
+  color: #FFF;
   text-decoration: none;
   font-size: 18px;
   font-weight: bold;
@@ -131,13 +132,13 @@ main {
 }
 
 footer {
-  padding: 50px;
+  padding: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #202020;
-  color: #fcfcfc;
+  background-color: #0e5dde;
+  color: white;
 
   a {
     color: #fcfcfc;
