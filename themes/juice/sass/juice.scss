@@ -12,6 +12,10 @@ body {
   min-height: 100vh;
 }
 
+.lighten:hover {
+  filter: brightness(1.5);
+}
+
 a {
   text-decoration: none;
 }
