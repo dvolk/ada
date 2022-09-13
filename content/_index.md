@@ -36,8 +36,11 @@ For SASview, GPU environment can bring up to a factor 50x in speed improvement w
 
 Without GPU environments, all above analysis would not be possible.
 
+# Acknowledgements
+
 We are funded by the Scientific Computing Department and Ada Lovelace Centre.
 
-# Acknowledgement
+We are supported by STFC Cloud, Data Services, Research Infrastructure, being the backbone of ada service, providing the compute resources, data storage and machines hosts for our customers, the scientists around the world. We are together, enabling scientific excellence.
 
-We are supported by SCD STFC Cloud, Data Services, Research Infrastructure, being the backbone of ada service, providing the compute resources, data storage and machines hosts for our customers, the scientists around the world. We are together, enabling scientific excellence.
+<img style=" float: right; background-color: grey; width: 100px" src='/alc.png'></img>
+<img style=" float: left; background-color: var(--my-background-color); width: 500px; padding-right:5px;" src='/scd.png'></img>
